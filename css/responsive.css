@@ -1,0 +1,984 @@
+@media(min-width:320px){
+    body{
+        height: 100vh;
+        /* padding-top: 80px; */
+    }
+    .container{
+        max-width: 1400px;
+        width: 98%;
+        margin: 0 auto;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 5;
+    }
+    .fa-bars{
+        display: block;
+        position: relative;
+        cursor: pointer;
+    }
+    .header nav{
+        display: none;
+    }
+    .navbar ul{
+        top:100%;
+        right: 100%;
+        width: 250px;
+        background-color:white;
+        padding: 20px;
+        position: absolute;
+    }
+    .navbar ul{
+        flex-direction: column;
+        text-align: right;
+        align-items: flex-start;
+        gap:10px
+    }
+    .navbar a{
+        color: seagreen;
+        text-shadow: 1px 1px black;
+        font-size: 12px;
+        font-weight:100;
+        
+    }
+    /* ........................home............................ */
+    .home{
+        padding-top: 80px;
+        height: 100vh;
+        background-color: seagreen;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        color: white;
+        text-align: center;
+    }
+    .top{
+        width: 250px;
+    }
+    .top img{
+        width: 100%;
+    }
+    h1{
+      font-size: 35px;  
+      font-weight: bold;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 60%;
+        justify-content: space-around;
+        padding: 0 10px;
+    }
+    .bottom p{
+        font-size: 20px;
+    }
+    .justify{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    .justify button{
+        background-color: lightseagreen;
+        width: 180px;
+        height: 50px;
+        border: none;
+        transition: all 0.7s;
+        border-radius: 25px;
+        color: white;
+        font-size: 17px;
+    }
+    .justify a{
+        color: white;
+    }
+    .justify div{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .fa-circle-play{
+        font-size: 27px;
+        color: lightseagreen;
+    }
+    /* .......................logos.............................. */
+    .logos{
+        display: flex;
+        padding: 20px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px ;
+    }
+    .logos div{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logos img{
+        width: 70px;
+        filter: grayscale(100%);
+        transition: all 0.7s;
+    }
+    .logos img:hover{
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+    /* ...............................aboutus..................................... */
+    .aboutus{
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 35px;
+        font-size: 20px;
+    }
+    .aboutus h2{
+        text-transform: uppercase;
+        font-size: 40px;
+        color: seagreen;
+        font-weight: bold;
+        text-align: center;
+    }
+    .abtop{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;        
+        row-gap: 20px;
+    }
+    .fa-check-double{
+        color: seagreen;
+        margin-right: 5px;
+    }
+    .apbottom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px;    }
+    
+    .apbottom button{
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border: 2px solid lightseagreen;
+        color: lightseagreen;
+        transition: all 0.7s;
+    }
+    .apbottom button:hover{
+        color: white;
+        background-color: lightseagreen;
+        border-color: lightseagreen;
+    }
+    .abus{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px; 
+    }
+    .apbottom{
+        padding-bottom: 20px;
+    }
+    /* ............................aboutus2........................ */
+    .aboutus2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .ab2bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 20px;
+    }
+    .ab2bottom h3{
+        font-size: 35px;
+        color: seagreen;
+    }
+    .ab2p{
+        color: gray;
+    }
+    .ab2bottom p{
+        line-height: 120%;
+        font-size: 19px;
+    }
+    .ab2div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 100%;
+    }
+    .arrow{
+        transform: rotate(90deg);
+        font-size: 23px;
+        
+    }
+    .ab2bottom .justify{
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.5s;
+        background-color:lightblue;
+        padding: 10px;
+        
+        
+    }
+    .ab2bottom .justify:hover{
+        color: lightseagreen;
+    }
+    .ab2bottom .justify span{
+        color: lightseagreen;
+        margin-right: 8px;
+    }
+    /* ................................about3.................. */
+    .aboutus3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        padding-top: 80px;
+    }
+    
+    .bottom3{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .upright h3{
+        font-size: 35px;
+        color: seagreen;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .upright p{
+        color: gray;
+        font-style: italic;
+        line-height: 120%;
+    }
+    .bottomright{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding-bottom: 40px;
+    }
+    .bottomright .justify{
+        justify-content: space-between;
+        color: seagreen;
+        font-weight: bold;
+    }
+    
+     .line{
+        height: 10px;
+    }
+    .html .line{
+        background-color: seagreen;
+    }
+    .css .line{
+        background: linear-gradient(
+            to right,
+            seagreen 0%,
+            seagreen 90%,
+            white 90%,
+            white 100%
+        );
+    }
+    .javascript .line{
+        background: linear-gradient(
+            to right,
+            seagreen 0%,
+            seagreen 75%,
+            white 75%,
+            white 100%
+        );
+    }
+    .photoshop .line{
+        background: linear-gradient(
+            to right,
+            seagreen 0%,
+            seagreen 55%,
+            white 55%,
+            white 100%
+        );
+    }
+     /* ....................................services................... */
+     .ss1{
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        text-align: center;
+    }
+    .servicestop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        width: 95%;
+    }
+    .servicestop h3{
+        font-size: 40px;
+        color: seagreen;
+        font-weight: bold;
+    }
+    .ss1-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .ss1-wrapper div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 15px;
+        background-color: seagreen;
+        color: white;
+        width: 80%;
+        padding: 20px 10px;
+        transition: all 0.5s;
+    }
+    .ss1-wrapper div:hover {
+        transform: scale(1.1);
+    }
+    .ss1-wrapper div i{
+        font-size: 30px;
+    }
+    .ss1-wrapper div h5{
+        font-size: 30px;
+    }
+    /* ...................................action....................... */
+    .action{
+        margin-top: 50px;
+        background-color: seagreen;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 30px;
+        color: white;
+    }
+    .action h3{
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .action p{
+        line-height: 120%;
+        font-size: 19px;
+    }
+    .action button{
+        background-color: seagreen;
+        width: 180px;
+        height: 50px;
+        border: 2px solid white;
+        transition: all 0.7s;
+        border-radius: 25px;
+        color: white;
+        font-size: 17px;
+    }
+    .action button:hover{
+        background-color: lightseagreen;
+        border-color: lightseagreen;
+    }
+    /* ....................................portfolio..................... */
+    #portfolio{
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    #portfolio h2, #team h2, .pricing h2, .asked h2, #contact h2{
+        font-size: 40px;
+        font-weight: bold;
+        color: seagreen;
+        text-align: center;
+    }
+    .portfoliotext p, .teamp{
+        font-size: 19px;
+        line-height: 120%;
+        margin: 20px auto;
+    }
+    #portfolio button{
+        border: none;
+        font-weight: bold;
+        transition: all 0.7s ;
+    }
+    .filters{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        margin-bottom: 30px;
+        gap: 5px;
+    }
+    #portfolio button:hover{
+        border-radius: 25px;
+        padding: 10px;
+        background-color: lightseagreen;
+        color: white;
+    }
+    .imgwrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .portfolioimg{
+        width: 400px;
+        max-width: 80%;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+    }
+  
+    .absolute{
+        position: absolute;
+        height: 70px;
+        width: 100%;
+        background-color: seagreen;
+        opacity: 0.8;
+        bottom: 0;
+        
+    }
+    .portfolioimg img{
+        width: 100%;
+        
+    }
+    .absolute{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .fa-magnifying-glass{
+        margin-right: 10px;
+    }
+    .move{
+        
+        background-color: green;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        display: none;
+    }
+  
+    .move div{
+        background-color: red;
+        width: 50px;
+        height: 50px;
+    }
+    /* ......................................team..................................... */
+    .teamwrapper{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    .boxes i{
+        border-radius: 50%;
+        color: seagreen;
+        background-color: white;
+        padding: 3px;
+        transition: all 0.5s;
+    }
+    .boxes i:hover{
+        transform: scale(1.1);
+    }
+    .boxes{
+        display: flex;
+        background-color: lightblue;
+        padding: 20px 30px;
+        transition: all 0.7s;
+        width: 90%;
+    }
+    .boxes:hover{
+        transform:translateY(-10px)
+    }
+    .boxes img{
+        width: 100px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+    .boxes h5{
+        font-size: 20px;
+        font-weight: bold;
+        color: seagreen;
+    }
+    .teamleft{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        text-align: left;
+        color: white;
+    }
+    .teamleft span{
+        border-bottom: 2px solid seagreen;
+        padding-bottom: 5px;
+        
+    }
+    #team{
+        padding-top: 80px;
+        text-align: center;
+    }
+    .teamp{
+        line-height: 120%;
+        font-size: 19px;
+        margin: 0;
+        margin: 20px 0;
+    }
+    /* ....................................pricing.................................... */
+    .pricing{
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .pricewrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .pricebox{
+        padding: 20px 30px;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        border: 3px double seagreen;
+    }
+    .pricebox h4{
+        font-size: 40px;
+    }
+    .pricebox i{
+        color: darkgreen;
+    }
+    .not{
+        opacity: 0.6;
+        text-decoration: line-through;
+    }
+    .not i{
+        color: darkred;
+    }
+    .pricebox span{
+        font-weight: bold;
+        color: lightseagreen;
+    }
+    .pricebox li i{
+        margin-right: 10px;
+    }
+    .pricebox h3{
+        font-size: 20px;
+        color: seagreen;
+        font-weight: bold;
+    }
+    .pricebox h4{
+        margin: 15px 0;
+    }
+    .pricebox ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding-top: 15px;
+        margin-bottom: 20px;
+    }
+    .pricebox button{
+        border: none;
+        border: 2px solid lightseagreen;
+        color: lightseagreen;
+        font-weight: bold;
+        width: 150px;
+        border-radius: 25px;
+        padding: 10px 5px;
+        transition: all 0.5s;
+    }
+    .pricebox button:hover{
+        color: white;
+        background-color: lightseagreen;
+    }
+    /* ..............................asked 320.................................... */
+    .asked{
+        padding-top: 80px;
+    }
+    .askedaccordeon{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        
+        margin: 0 auto;
+    }
+    .questions{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .question{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: lightblue;
+        gap: 30px;
+        cursor: pointer;
+        transition: all 0.7s;
+    }
+    .question:hover{
+        color: darkred;
+    }
+    .question i{
+        color: darkred;
+        border: 2px solid darkred;
+        padding: 2px 3px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+    .askedarrow{
+        color: darkred;
+        font-size: 25px;
+        font-weight: bold;
+        transform: rotate(90deg);
+    }
+    .asked h4{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* .............................contact 320................................ */
+    #contact .container{
+        padding-top: 80px;
+    }
+    .contactwrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .contacttop, .contacbottom{
+        border-top: 3px solid;
+        border-bottom: 3px solid;
+        border-color: seagreen;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        width: 100%;
+    }
+    .contacbottom{
+        align-items: center;
+    }
+    .contacttop h4{
+        color: seagreen;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+   .map{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    max-width: 250px;
+    width: 80%;
+   }
+   .mapish{
+    width: 100%;
+   }
+
+    .contacttop i{
+        margin-right: 10px;
+    }
+    .contacttop a{
+        margin-left: 35px;
+        color: black;
+    }
+    .teamp{
+        text-align: center;
+    }
+    .forms{
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    label{
+        color: seagreen;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    input{
+        border: 2px solid black;
+        height: 40px;
+    }
+    textarea{
+        border: 2px solid black;
+        height: 140px;
+    }
+    input:focus, textarea:focus{
+        outline-color: seagreen;
+    }
+   
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    form button{
+        border: none;
+        border: 2px solid lightseagreen;
+        color: lightseagreen;
+        font-weight: bold;
+        width: 150px;
+        border-radius: 25px;
+        padding: 10px 5px;
+        transition: all 0.5s;
+    }
+    form button:hover{
+        color: white;
+        background-color: lightseagreen;
+    }
+    /* .............................footer............................ */
+    .footer{
+     padding-top: 80px;
+    }
+    .ftr{
+        width: 100%;
+        background-color: seagreen;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        text-align: center;
+        height: 80px;
+        justify-content: center;
+    }
+    
+}
+@media(min-width:700px){
+    
+    /*  */
+    .navbar ul{
+        width: 600px;
+    }
+    .top{
+        width: 400px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .bottom p{
+        font-size: 20px;
+    }
+    /* .justify button{
+        font-size: 25px;
+        padding: 15px 20px;
+    } */
+    .justify i{
+        font-size: 35px;
+    }
+    .justify a{
+        font-size: 30px;
+    }
+    /* logos */
+    .logos div{
+        width: 25%;
+        
+    }
+    .logos img{
+        width: 90px;
+    }
+    /* .............................aboutus................... */
+    .aboutus{
+        height: 100vh;
+        padding-top: 80px;
+    }
+ 
+    .abus{
+        height: 70vh;
+        justify-content: space-evenly;
+    }
+    /* ..........................services................. */
+    .ss1-wrapper{
+        gap: 50px;
+    }
+    .ss1-wrapper div{
+        width: 40%;
+        padding: 15px 30px;
+        
+    }
+    /* ......................................portfolio700..................................................... */
+    .portfolioimg{
+        max-width: 45%;
+    }
+    /* ..............................pricing................................700 */
+    .pricebox{
+       width: 51%;
+    }
+    /* ....................................asked........................700.............. */
+    .askedaccordeon{
+        width: 80%;
+    }
+    /* contact 1000/.............................. */
+    iframe{
+        width: 600px;
+        height: 300px;
+    }
+    .row{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .name, .email{
+        width: 47%;
+    }
+    /* .............footer.......... */
+       .ftr{
+          
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           padding: 20px;
+       }
+}
+@media(min-width:1000px){
+    .header nav{
+        display: flex;
+    }
+    .fa-bars{
+        display: none;
+        
+    }
+    .home{
+        height: fit-content;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .top{
+        width: 500px;
+    }
+    .homemain{
+        height: 100vh;
+    }
+    .bottom{
+        gap: 30px;
+        align-items: first baseline;
+        text-align: left;
+    }
+    /* .justify button{
+        font-size: 25px;
+        border-radius: 25px;
+        padding: 10px 15px;
+    } */
+    
+    .logos div{
+        width: 15%;
+    }
+    /* ............................aboutus........................ */
+    .aboutus h2{
+        font-size: 55px;
+    }
+    
+    .abus{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+    .abtop{
+        width: 50%;
+    }
+    .apbottom{
+        width: 50%;
+    }
+    /* ....................aboutus2.............. */
+    .aboutus2{
+        height: 100vh;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .ab2bottom{
+        width: 50%;
+    }
+    /* ..........................aboutus3...................... */
+    .aboutus3{
+        height: 100vh;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .ss1{
+        height: 100vh;
+    }
+    /* .......................action........... */
+    .action{
+        flex-direction: row;
+        justify-content: center;
+        gap: 60px;
+        align-items: center;
+        padding: 60px 30px;
+    }
+    .action .actiontext{
+        width: 60%;
+        text-align: left;
+    }
+    /* ......................portfolio1000.............. */
+    .portfoliotext{
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* .................team1000........................ */
+    .teamwrapper{
+       gap: 20px;
+    }
+    .boxes{
+        width: 45%;
+    }
+    .boxes img{
+        width: 150px;
+    }
+    .teamp{
+        width: 85%;
+        margin: 20px auto;
+        text-align: center
+    }
+   /* ..............................pricing................................1000 */
+   .pricebox{
+    width: 25%;
+ }
+ /* ............................................contact........................... */
+ .contactwrapper{
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ iframe{
+    width: 350px;
+    height: 200px;
+}
+}
+.hidden{
+    display: none;
+}
+.deg{
+    transform: rotate(270deg);
+}
